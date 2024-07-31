@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>SMS Gateway Form</title>
+	
+	    <link rel="stylesheet" href="styles.css">
+		
+		</head>
+		
+		<body>
+		
+		    <div class="container">
+			
+			        <h2>Send SMS</h2>
+					
+					        <form action="send_sms.php" method="post">
+							
+							            <label for="apiKey">API Key:</label>
+										
+										            <input type="text" id="apiKey" name="apiKey" required><br>
+													
+													
+													
+													            <label for="message">Message:</label>
+																
+																            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+																			
+																			
+																			
+																			            <label for="templateID">Template ID:</label>
+																						
+																						            <input type="text" id="templateID" name="templateID" required><br>
+																									
+																									
+																									
+																									            <label for="customerUrl">Customer URL:</label>
+																												
+																												            <input type="text" id="customerUrl" name="customerUrl" required><br>
+																															
+																															
+																															
+																															            <label for="mobileNumbers">Mobile Numbers (comma-separated):</label>
+																																		
+																																		            <textarea id="mobileNumbers" name="mobileNumbers" rows="4" cols="50" required></textarea><br>
+																																					
+																																					
+																																					
+																																					            <input type="submit" value="Send SMS">
+																																								
+																																								        </form>
+																																										
+																																										    </div>
+																																											
+																																											</body>
+																																											
+																																											</html>
+																																											
+																																											
